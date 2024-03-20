@@ -13,3 +13,16 @@ Access the application using:
 ```
 curl localhost:8080/greet
 ```
+
+### Deploy this app in OpenShift using S2I
+```
+oc new-app --name=test https://github.com/anilabhabaral/go-web-app.git
+```
+
+```
+oc expose deploy test --port 8080
+```
+
+```
+oc expose svc test
+```
