@@ -24,5 +24,5 @@ oc expose deploy test --port 8080
 ```
 
 ```
-oc expose svc test
+oc expose svc test --path "/greet"
 ```
