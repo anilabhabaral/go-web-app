@@ -14,7 +14,7 @@ Access the application using:
 curl localhost:8080/greet
 ```
 
-### Deploy this app in OpenShift using S2I
+### Deploy this app in OpenShift using s2i
 ```
 oc new-app --name=test https://github.com/anilabhabaral/go-web-app.git
 ```
