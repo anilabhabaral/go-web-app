@@ -26,3 +26,12 @@ oc expose deploy test --port 8080
 ```
 oc expose svc test --path "/greet"
 ```
+
+### Access the app deployed in OpenShift
+- Get the route:
+```
+oc get route
+```
+```
+curl <ROUTE_URL>
+```
