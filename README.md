@@ -33,6 +33,7 @@ oc expose svc test --path "/greet"
 ```
 oc get route
 ```
+- Access the application endpoint:
 ```
 curl <ROUTE_URL>
 ```
