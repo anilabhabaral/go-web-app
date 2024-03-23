@@ -15,14 +15,15 @@ curl localhost:8080/greet
 ```
 
 ### Deploy this app in OpenShift using s2i
+- Deploy application using s2i:
 ```
 oc new-app --name=test https://github.com/anilabhabaral/go-web-app.git
 ```
-
+- Create a service for the deployment:
 ```
 oc expose deploy test --port 8080
 ```
-
+- Create a ROUTE for the above service:
 ```
 oc expose svc test --path "/greet"
 ```
