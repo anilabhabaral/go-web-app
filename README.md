@@ -61,5 +61,5 @@ oc get route
 ```
 - Access the application endpoint:
 ```
-curl <ROUTE_URL>
+curl <ROUTE_URL>/<PATH>
 ```
