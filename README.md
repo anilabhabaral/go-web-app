@@ -19,7 +19,7 @@ curl localhost:8080/greet
 ```
 oc new-app --name=test https://github.com/anilabhabaral/go-web-app.git
 ```
-- See all the namespace/project resources after the above s2i step:
+- See all the resources present in the namespace/project after the above s2i step:
 ```
 $ oc get all
                       
