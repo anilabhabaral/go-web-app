@@ -41,7 +41,7 @@ NAME                              TYPE     FROM          STATUS     STARTED     
 build.build.openshift.io/test-1   Source   Git@b59f854   Complete   2 minutes ago   50s
 
 NAME                                  IMAGE REPOSITORY                                                                                      TAGS     UPDATED
-imagestream.image.openshift.io/test   default-route-openshift-image-registry.apps.cndsno3.cee.ral3.lab.eng.rdu2.redhat.com/abaral-go/test   latest   About a minute ago
+imagestream.image.openshift.io/test   default-route-openshift-image-registry.apps.xxxx.xxxx.xxxx.lab.eng.rdu2.redhat.com/abaral-go/test   latest   About a minute ago
 
 ```
 
